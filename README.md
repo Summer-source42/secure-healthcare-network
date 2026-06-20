@@ -1,4 +1,4 @@
-# Secure Healthcare Enterprise Network [Enterprise Design]
+# Secure Healthcare Enterprise Network 
 
 ![Status](https://img.shields.io/badge/status-portfolio%20ready-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Cisco%20Packet%20Tracer-blue)
@@ -141,11 +141,8 @@ secure-healthcare-network-portfolio/
 │   ├── 02-network-design.md
 │   ├── 03-ip-addressing-plan.md
 │   ├── 04-security-design.md
-│   ├── 05-implementation-guide.md
-│   ├── 06-validation-and-testing.md
-│   ├── 07-troubleshooting.md
-│   ├── 08-limitations-and-improvements.md
-│   └── 09-interview-talking-points.md
+│   ├── 05-validation-and-testing.md
+│   ├── 06-troubleshooting.md
 ├── configs/
 │   ├── switches/
 │   ├── routers/
@@ -157,21 +154,11 @@ secure-healthcare-network-portfolio/
 ├── assets/
 │   ├── topology/
 │   └── screenshots/
-├── packet-tracer/
-│   └── secure-healthcare-enterprise-network.pkt
-├── resume/
-└── presentation/
+└── packet-tracer/
+    └── secure-healthcare-enterprise-network.pkt
+
 ```
 
-## Review
-
-1. Start with this README for the business case and architecture.
-2. Review [`docs/02-network-design.md`](docs/02-network-design.md) for topology decisions.
-3. Review [`docs/03-ip-addressing-plan.md`](docs/03-ip-addressing-plan.md) for VLANs and addressing.
-4. Review [`docs/04-security-design.md`](docs/04-security-design.md) for firewall zones and hardening.
-5. Review [`docs/06-validation-and-testing.md`](docs/06-validation-and-testing.md) for operational verification.
-6. Review [`evidence/test-results/connectivity-test-matrix.md`](evidence/test-results/connectivity-test-matrix.md) for test results.
-7. Review the `configs/` directory for implementation templates.
 
 ## Verification 
 
