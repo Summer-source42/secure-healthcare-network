@@ -150,11 +150,10 @@ secure-healthcare-network-portfolio/
 ├── evidence/
 │   ├── command-outputs/
 │   └── test-results/
-├── assets/
-│   ├── topology/
-│   └── screenshots/
-└── packet-tracer/
-    └── secure-healthcare-enterprise-network.pkt
+└──  assets/
+    ├── topology/
+    └── screenshots/
+
 
 ```
 
