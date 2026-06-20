@@ -23,12 +23,12 @@ The design focuses on the responsibilities expected from a Network Engineer: bui
 | Main platform | Cisco Packet Tracer |
 | Key controls | VLAN segmentation, Cisco ASA zones, ACLs, NAT/PAT, OSPF, HSRP, EtherChannel, SSH-restricted management, DMZ isolation |
 
-## Architecture and Lab Files
+## Architecture and Files
 
 | Asset | Link | 
 |---|---|
 | Full topology diagram | [View topology diagram](assets/topology/packet-tracer-full-topology.png) |
-|  File | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | 
+|  File | [Download File](packet-tracer/secure-healthcare-enterprise-network.pkt) | 
 | Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) |
 
 Topology
