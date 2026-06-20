@@ -35,7 +35,7 @@
 |---|---|---|---|---|
 | LAN_POOL | LAN subnet | VLAN 10 VIP | 10.20.10.10 | Wired clients and printers |
 | WLAN_POOL | WLAN subnet | VLAN 50 VIP | 10.20.10.10 | Wireless clients |
-| VOICE_POOL | Voice subnet | Voice gateway / VLAN 99 VIP | 10.20.10.10 | IP phones; may be served by VoIP router in Packet Tracer |
+| VOICE_POOL | Voice subnet | Voice gateway / VLAN 99 VIP | 10.20.10.10 | IP phones |
 
 ## Static Addressing
 
