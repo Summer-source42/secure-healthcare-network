@@ -1,4 +1,4 @@
-# Secure Healthcare Enterprise Network — Enterprise Design Case Study
+# Secure Healthcare Enterprise Network [Enterprise Design]
 
 ![Status](https://img.shields.io/badge/status-portfolio%20ready-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Cisco%20Packet%20Tracer-blue)
@@ -11,7 +11,6 @@ This repository documents a realistic enterprise network design for a multi-floo
 
 The design focuses on the responsibilities expected from a Network Engineer: building a scalable topology, segmenting users and services, protecting traffic with a firewall and access controls, providing routing and gateway redundancy, supporting centralized DHCP/DNS, enabling wireless and voice services, and validating the implementation with operational commands.
 
-> **Environment note:** This case study models a real-world healthcare enterprise network in Cisco Packet Tracer. The documentation is written in a professional operations style, focusing on business requirements, design decisions, implementation evidence, verification, and troubleshooting.
 
 ## At a Glance
 
@@ -32,13 +31,12 @@ Use the links below to review the implementation assets. Upload your final Packe
 |---|---|---|
 | Full topology diagram | [View topology diagram](assets/topology/packet-tracer-full-topology.png) | `assets/topology/packet-tracer-full-topology.png` |
 | Cisco Packet Tracer lab file | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | `packet-tracer/secure-healthcare-enterprise-network.pkt` |
-| Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) | Already included |
+| Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) | assets/topology/healthcare-enterprise-architecture.svg |
 
 After you upload the topology image, it will display below:
 
 ![Secure Healthcare Enterprise Network Topology](assets/topology/packet-tracer-full-topology.png)
 
-> If the image does not appear yet, upload your topology screenshot to `assets/topology/packet-tracer-full-topology.png`.
 
 ## Business Requirements
 
@@ -167,9 +165,7 @@ secure-healthcare-network-portfolio/
 └── presentation/
 ```
 
-## What to Review First
-
-For a hiring manager or technical interviewer, the best review path is:
+## Review
 
 1. Start with this README for the business case and architecture.
 2. Review [`docs/02-network-design.md`](docs/02-network-design.md) for topology decisions.
@@ -179,9 +175,8 @@ For a hiring manager or technical interviewer, the best review path is:
 6. Review [`evidence/test-results/connectivity-test-matrix.md`](evidence/test-results/connectivity-test-matrix.md) for test results.
 7. Review the `configs/` directory for implementation templates.
 
-## Verification Evidence to Add
+## Verification 
 
-Before making the repo public, add real evidence from Packet Tracer. This is what makes the repository look professional instead of theoretical.
 
 | Evidence | Save As |
 |---|---|
@@ -243,7 +238,6 @@ The final design demonstrates the ability to:
 
 ## Limitations
 
-Cisco Packet Tracer does not fully support every enterprise feature used in production networks. For that reason, some production-grade controls are represented as design recommendations or configuration templates.
 
 Production improvements would include:
 
@@ -255,9 +249,6 @@ Production improvements would include:
 - Automated configuration backup
 - Formal change control and rollback plan
 
-## Resume Summary
-
-Designed and implemented a secure healthcare enterprise network case study using Cisco Packet Tracer, including VLAN segmentation, inter-VLAN routing, OSPF, HSRP, LACP EtherChannel, Cisco ASA firewall zoning, NAT, DMZ services, centralized DHCP/DNS, WLC-managed wireless, and VoIP services, with documentation for verification and troubleshooting.
 
 ## License
 
