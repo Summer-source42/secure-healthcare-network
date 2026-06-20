@@ -25,15 +25,13 @@ The design focuses on the responsibilities expected from a Network Engineer: bui
 
 ## Architecture and Lab Files
 
-Use the links below to review the implementation assets. Upload your final Packet Tracer diagram and `.pkt` file using the same filenames shown here, and GitHub will automatically render/link them from this README.
+| Asset | Link | 
+|---|---|
+| Full topology diagram | [View topology diagram](assets/topology/packet-tracer-full-topology.png) |
+| Cisco Packet Tracer lab file | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | 
+| Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) |
 
-| Asset | Link | File to Upload |
-|---|---|---|
-| Full topology diagram | [View topology diagram](assets/topology/packet-tracer-full-topology.png) | `assets/topology/packet-tracer-full-topology.png` |
-| Cisco Packet Tracer lab file | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | `packet-tracer/secure-healthcare-enterprise-network.pkt` |
-| Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) | assets/topology/healthcare-enterprise-architecture.svg |
-
-After you upload the topology image, it will display below:
+Topology
 
 ![Secure Healthcare Enterprise Network Topology](assets/topology/packet-tracer-full-topology.png)
 
@@ -100,10 +98,10 @@ The security model uses layered controls rather than relying on a single device.
 
 | Layer | Security Control |
 |---|---|
-| Perimeter | ASA firewall zones, NAT, ACL-based traffic filtering |
-| DMZ | Server isolation from internal users and internet-facing traffic |
-| Access layer | VLAN separation, PortFast, BPDU Guard, unused-port shutdown checklist |
-| Management plane | SSH-only administration from an authorized security engineer workstation |
+| Perimeter | ASA firewall zones, NAT, ACL based traffic filtering |
+| DMZ | Server isolation from internal users and internet facing traffic |
+| Access layer | VLAN separation, PortFast, BPDU Guard, unused port shutdown checklist |
+| Management plane | SSH only administration from an authorized security engineer workstation |
 | Wireless | SSID separation for employees, corporate users, auditors, and guests |
 | Voice | Dedicated voice VLAN for IP phones |
 | Routing | OSPF route advertisement with controlled edge/default routing |
@@ -121,9 +119,9 @@ Recommended hardening items included in the documentation:
 
 ## IP Addressing and Documentation
 
-The detailed addressing plan is documented in [`docs/03-ip-addressing-plan.md`](docs/03-ip-addressing-plan.md).
+The detailed addressing plan is documented in [`docs/03-ip-addressing-plan.md`](docs/03-ip-addressing-plan.md)
 
-Recommended README-level summary:
+Summary:
 
 | Network Area | Purpose |
 |---|---|
@@ -178,7 +176,7 @@ secure-healthcare-network-portfolio/
 ## Verification 
 
 
-| Evidence | Save As |
+| Evidence | Links |
 |---|---|
 | Cisco Packet Tracer lab file | `packet-tracer/secure-healthcare-enterprise-network.pkt` |
 | Full Packet Tracer topology screenshot | `assets/topology/packet-tracer-full-topology.png` |
