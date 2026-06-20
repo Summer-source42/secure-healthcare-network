@@ -1,4 +1,4 @@
-# 02 - Network Design
+# 02 Network Design
 
 ## Design Model
 
