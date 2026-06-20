@@ -9,7 +9,7 @@ Design and implement a secure enterprise network for a healthcare organization w
 - Support multiple departments across several office floors.
 - Separate wired users, wireless users, voice traffic, and server resources.
 - Provide secure internet access through an enterprise firewall.
-- Provide controlled access to DMZ-hosted services.
+- Provide controlled access to DMZ hosted services.
 - Support centralized DHCP and DNS services.
 - Provide wireless access for employees, corporate users, auditors, and guests.
 - Provide VoIP services for department communication.
@@ -37,7 +37,7 @@ Design and implement a secure enterprise network for a healthcare organization w
 
 ## Scope
 
-These items are included as design 
+These items are included
 
 - Real SIEM integration
 - Real TACACS+/RADIUS AAA server integration
