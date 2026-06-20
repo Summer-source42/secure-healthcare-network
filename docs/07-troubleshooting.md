@@ -1,4 +1,4 @@
-# 07 - Troubleshooting Documentation
+# 06 Troubleshooting Documentation
 
 ## Issue 1 - Wireless Client Did Not Receive DHCP Address
 
