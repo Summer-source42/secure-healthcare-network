@@ -20,7 +20,7 @@
 | ASA Inside | 10.30.10.1/30 | Toward enterprise edge/core routing domain |
 | ASA DMZ | 10.20.10.1/26 | Default gateway for DMZ servers |
 | ASA Outside | 197.200.100.2/30 | Toward ISP |
-| ISP Router | 197.200.100.1/30 | ISP-facing next hop |
+| ISP Router | 197.200.100.1/30 | ISP facing next hop |
 | Primary Server / DHCP-DNS | 10.20.10.10/26 | Central services |
 | WLC Management | 10.10.0.50 | Wireless controller management |
 | MLS1 VLAN 10 SVI | 10.10.0.3/16 | HSRP active example |
