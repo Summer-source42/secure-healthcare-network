@@ -1,4 +1,4 @@
-# 04 - Security Design
+# 04 Security Design
 
 ## Security Objectives
 
@@ -33,7 +33,7 @@ The design is built around the CIA model:
 
 NAT/PAT is used so inside users can access outside networks while hiding internal private IP addresses.
 
-Recommended objects:
+Objects/commands:
 
 ```cisco
 object network LAN_TO_INTERNET
@@ -51,7 +51,7 @@ object network DMZ_TO_INTERNET
 
 ### Least-Privilege ACL Design
 
-Avoid broad rules such as `permit ip any any`. Prefer specific policies:
+Avoided broad rules such as `permit ip any any` :
 
 | Source | Destination | Ports | Reason |
 |---|---|---|---|
@@ -65,7 +65,7 @@ Avoid broad rules such as `permit ip any any`. Prefer specific policies:
 
 ## Management Plane Security
 
-Recommended controls:
+Controls/Commands:
 
 ```cisco
 ip domain-name example.local
@@ -85,7 +85,6 @@ line vty 0 4
 
 ## Layer 2 Security Hardening
 
-Add these controls to make the project stronger for interviews:
 
 | Control | Purpose |
 |---|---|
@@ -101,7 +100,7 @@ Add these controls to make the project stronger for interviews:
 | Restrict trunk VLANs | Prevent VLAN leakage |
 | Change native VLAN | Reduce VLAN hopping risk |
 
-Example access port hardening:
+Access port hardening:
 
 ```cisco
 interface range fa0/3 - 20
@@ -117,7 +116,7 @@ interface range fa0/3 - 20
  storm-control broadcast level 5.00
 ```
 
-Example unused port shutdown:
+Unused port shutdown:
 
 ```cisco
 interface range fa0/25 - 48
@@ -127,20 +126,19 @@ interface range fa0/25 - 48
  shutdown
 ```
 
-## Wireless Security Recommendations
+## Wireless Security
 
 | SSID | VLAN | Security | Access Policy |
 |---|---:|---|---|
 | EMPLOYEE | 50 | WPA2/WPA3-Enterprise concept | Internal resources based on role |
-| CORPORATE | 50 or dedicated VLAN | WPA2/WPA3-Enterprise concept | Restricted corporate access |
-| AUDITOR | Dedicated auditor VLAN recommended | Time-limited credentials | Audit-only systems |
+| CORPORATE | 50 or dedicated VLAN | WPA2/WPA3 Enterprise concept | Restricted corporate access |
+| AUDITOR | Dedicated auditor VLAN recommended | Time limited credentials | Audit-only systems |
 | GUEST | Dedicated guest VLAN recommended | Captive portal / WPA2-PSK in lab | Internet-only |
 
-Packet Tracer may not fully support production WPA3/RADIUS workflows, so document these as production recommendations.
 
 ## Logging and Monitoring
 
-Recommended production controls:
+Controls/Commands:
 
 ```cisco
 service timestamps log datetime msec
@@ -150,15 +148,6 @@ ntp server <NTP_SERVER_IP>
 snmp-server group NETOPS v3 priv
 ```
 
-For the portfolio, include screenshots or command outputs showing:
-
-- Successful SSH restriction
-- Firewall ACL counters
-- NAT translations
-- HSRP failover
-- OSPF routes
-- DHCP assignment
-- Wireless client association
 
 ## Threat Model
 
