@@ -35,9 +35,9 @@ Design and implement a secure enterprise network for a healthcare organization w
 - NAT/PAT for internet access
 - Testing and validation documentation
 
-## Out of Scope
+## Scope
 
-These items are included as design recommendations or documentation placeholders, but may not be fully simulated in Packet Tracer:
+These items are included as design 
 
 - Real SIEM integration
 - Real TACACS+/RADIUS AAA server integration
