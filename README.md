@@ -20,7 +20,6 @@ The design focuses on the responsibilities expected from a Network Engineer: bui
 | Environment | Multi-floor enterprise campus with clinical, business, guest, IT, server, wireless, voice, and cloud-facing segments |
 | Primary goal | Build a secure, scalable, redundant network that supports business operations and protects sensitive healthcare services |
 | Engineering role demonstrated | Network design, switching, routing, firewall policy, wireless, voice, documentation, validation, and troubleshooting |
-| Main platform | Cisco Packet Tracer |
 | Key controls | VLAN segmentation, Cisco ASA zones, ACLs, NAT/PAT, OSPF, HSRP, EtherChannel, SSH-restricted management, DMZ isolation |
 
 ## Architecture and Files
