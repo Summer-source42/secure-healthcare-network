@@ -25,7 +25,7 @@
 
 ## GitHub Evidence
 
-Add screenshots for:
+screenshots for:
 
 - WLC management page
 - AP joined page
