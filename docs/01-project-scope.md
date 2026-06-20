@@ -2,7 +2,7 @@
 
 ## Objective
 
-Design and implement a secure enterprise network for a healthcare organization with multiple departments, floors, user groups, internal services, wireless access, VoIP, DMZ resources, ISP access, and simulated cloud connectivity.
+Design and implement a secure enterprise network for a healthcare organization with multiple departments, floors, user groups, internal services, wireless access, VoIP, DMZ resources, ISP access, and cloud connectivity.
 
 ## Business Requirements
 
@@ -14,11 +14,11 @@ Design and implement a secure enterprise network for a healthcare organization w
 - Provide wireless access for employees, corporate users, auditors, and guests.
 - Provide VoIP services for department communication.
 - Support high availability and future growth.
-- Use a structured, hierarchical network model.
+
 
 ## Technical Requirements
 
-- Cisco Packet Tracer simulation
+- Cisco Packet Tracer 
 - Cisco ASA firewall
 - Multilayer switching
 - Access switching
