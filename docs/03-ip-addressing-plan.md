@@ -1,4 +1,4 @@
-# 03 - IP Addressing Plan
+# 03 IP Addressing Plan
 
 > Note: Adjust this table if your final Packet Tracer topology uses different masks or device IP addresses. The plan below is written to match the project design and the values visible in the implementation transcript where available.
 
