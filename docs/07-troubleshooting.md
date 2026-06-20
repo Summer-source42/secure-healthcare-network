@@ -1,22 +1,6 @@
 # 07 - Troubleshooting Documentation
 
-## Purpose
-
-Hiring managers like to see troubleshooting because it proves operational skill. Use this file to document what broke, how you isolated it, and how you fixed it.
-
-## Troubleshooting Method
-
-1. Define the symptom.
-2. Identify the scope: one host, one VLAN, one floor, or whole network.
-3. Check physical/link status.
-4. Check VLAN and trunk assignment.
-5. Check gateway/HSRP.
-6. Check routing table and OSPF neighbors.
-7. Check DHCP assignment and helper addresses.
-8. Check firewall NAT and ACLs.
-9. Test again and document the fix.
-
-## Example Issue 1 - Wireless Client Did Not Receive DHCP Address
+## Issue 1 - Wireless Client Did Not Receive DHCP Address
 
 **Symptom:** Wireless client associated to SSID but received no valid IP address.
 
@@ -43,7 +27,7 @@ interface <TRUNK_INTERFACE>
 
 **Result:** Client received WLAN subnet address and could ping the VLAN 50 gateway.
 
-## Example Issue 2 - HSRP Did Not Elect Expected Active Switch
+## Issue 2 - HSRP Did Not Elect Expected Active Switch
 
 **Symptom:** MLS2 became active when MLS1 was expected to be active.
 
@@ -68,7 +52,7 @@ interface vlan 10
 
 **Result:** MLS1 became active after HSRP convergence.
 
-## Example Issue 3 - LAN Users Could Not Access Internet
+## Issue 3 - LAN Users Could Not Access Internet
 
 **Symptom:** LAN clients could ping internal gateways but not outside/cloud resources.
 
@@ -97,7 +81,7 @@ route outside 0.0.0.0 0.0.0.0 <ISP_NEXT_HOP>
 
 **Result:** ASA created translations and outside pings/web tests succeeded.
 
-## Example Issue 4 - Unauthorized PC Could SSH to a Switch
+## Issue 4 - Unauthorized PC Could SSH to a Switch
 
 **Symptom:** Non-admin client could reach device VTY lines.
 
