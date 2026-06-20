@@ -1,4 +1,4 @@
-# 01 - Project Scope
+# 01 Project Scope
 
 ## Objective
 
