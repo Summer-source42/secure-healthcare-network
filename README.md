@@ -158,27 +158,6 @@ secure-healthcare-network-portfolio/
 ```
 
 
-## Verification 
-
-
-| Evidence | Links |
-|---|---|
-| Cisco Packet Tracer lab file | `packet-tracer/secure-healthcare-enterprise-network.pkt` |
-| Full Packet Tracer topology screenshot | `assets/topology/packet-tracer-full-topology.png` |
-| VLAN verification | `evidence/command-outputs/show-vlan-brief.txt` |
-| Trunk verification | `evidence/command-outputs/show-interfaces-trunk.txt` |
-| EtherChannel verification | `evidence/command-outputs/show-etherchannel-summary.txt` |
-| HSRP verification | `evidence/command-outputs/show-standby-brief.txt` |
-| OSPF neighbor verification | `evidence/command-outputs/show-ip-ospf-neighbor.txt` |
-| Routing table verification | `evidence/command-outputs/show-ip-route.txt` |
-| ASA ACL verification | `evidence/command-outputs/asa-show-access-lists.txt` |
-| ASA NAT verification | `evidence/command-outputs/asa-show-nat.txt` |
-| DHCP client screenshot | `assets/screenshots/dhcp-client-success.png` |
-| Inter-VLAN ping test | `assets/screenshots/inter-vlan-connectivity.png` |
-| DMZ access test | `assets/screenshots/dmz-access-test.png` |
-| Wireless client association | `assets/screenshots/wireless-client-associated.png` |
-| VoIP call test | `assets/screenshots/voip-call-success.png` |
-| HSRP failover test | `assets/screenshots/hsrp-failover-test.png` |
 
 ## Core Verification Commands
 
