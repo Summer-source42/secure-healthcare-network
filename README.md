@@ -28,7 +28,7 @@ The design focuses on the responsibilities expected from a Network Engineer: bui
 | Asset | Link | 
 |---|---|
 | Full topology diagram | [View topology diagram](assets/topology/packet-tracer-full-topology.png) |
-| Cisco Packet Tracer lab file | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | 
+|  File | [Download Packet Tracer lab](packet-tracer/secure-healthcare-enterprise-network.pkt) | 
 | Architecture reference | [View architecture reference](assets/topology/healthcare-enterprise-architecture.svg) |
 
 Topology
